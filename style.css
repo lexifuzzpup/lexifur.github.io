@@ -326,3 +326,20 @@ dfn {
     background: linear-gradient(to right, transparent 50%, #0004 50%), linear-gradient(to bottom, #0002 50%, #0000);
     background-size: 1rem 100%;
 }
+
+#home-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    width: 100%;
+
+    & > div {
+
+        img, iframe {
+            height: 4rem;
+        }
+    }
+}
